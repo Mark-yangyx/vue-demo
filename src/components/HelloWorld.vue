@@ -95,9 +95,14 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang="stylus" scoped>
+.hello {
+	font-size: crem(24);
+	padding-top crem(20)
+}
 h1, h2 {
   font-weight: normal;
+	padding: crem(20) 0;
 }
 ul {
   list-style-type: none;
@@ -106,6 +111,7 @@ ul {
 li {
   display: inline-block;
   margin: 0 10px;
+	padding: crem(20) 0;
 }
 a {
   color: #42b983;
